@@ -24,7 +24,7 @@ public class HelloControllerTest {
 	  public void testHelloReturnExpectedString() {
 	    final String expected = "Hello Note";
 	    final String actual = helloController.hello();
-	    assertEquals(expected, actual);
+	    assertEquals(expected, actual); 
 	  }
 
 	  @Test
