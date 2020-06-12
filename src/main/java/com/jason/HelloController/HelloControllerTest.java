@@ -1,4 +1,4 @@
-package com.jason.HelloController;
+package com.jason.helloController;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;

@@ -1,4 +1,4 @@
-package com.jason.HelloController;
+package com.jason.helloController;
 
 
 import org.slf4j.Logger;
@@ -14,10 +14,9 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		
-		logger.info("-------start----");
-		logger.info("-------end--- ----");
-		return"Hello Note";
+		String str ="hello note";
+		System.out.println(str);
+		return str;
 		
 	}
 	
