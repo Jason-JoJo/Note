@@ -1,4 +1,4 @@
-package com.jason.helloController;
+package com.jason.HelloController;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -22,7 +22,7 @@ public class HelloControllerTest {
 
 	  @Test
 	  public void testHelloReturnExpectedString() {
-	    final String expected = "Hello Note";
+	    final String expected = "hello note";
 	    final String actual = helloController.hello();
 	    assertEquals(expected, actual); 
 	  }
