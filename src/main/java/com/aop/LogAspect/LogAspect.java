@@ -15,7 +15,7 @@ public class LogAspect {
 
 	
 
-    @Pointcut("execution(* com.jason.helloController..*(..))")
+    @Pointcut("execution(* com.jason.HelloController..*(..))")
 //    @Pointcut("execution()")
     public void pointcut() {
     }
