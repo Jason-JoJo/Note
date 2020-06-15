@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
  
 @SpringBootApplication
-@ComponentScan(basePackages  = {"com.jason.helloController, com.aop.LogAspect"})
+@ComponentScan(basePackages  = {"com.jason.HelloController, com.aop.LogAspect, com.jason.controller"})
 @MapperScan(basePackages = "com.jason.dao")
 public class MoneyNoteApplication {
 
