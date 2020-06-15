@@ -23,13 +23,13 @@ public class LogAspect {
     @Before("pointcut()")
     public void before(JoinPoint joinPoint) {
         Logger logger = LoggerFactory.getLogger(joinPoint.getTarget().getClass().getName());
-        logger.info("start");
+        logger.info("hello start");
     }
 
     @After("pointcut()")
     public void after(JoinPoint joinPoint) {
         Logger logger = LoggerFactory.getLogger(joinPoint.getTarget().getClass().getName());
-        logger.info("end");
+        logger.info("hello end");
     }
 
 }
